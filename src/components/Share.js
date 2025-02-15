@@ -2,8 +2,8 @@ import React from 'react'
 import "../css/share.css";
 const Share = () => {
   return (
-    <div className='page'>
-         <div class="announcement page">
+    <div className='page fixbg'>
+         <div class="announcement page  fixbg">
    
         <h1 className='title'>SHARE</h1>
         <div className='gridshare'>

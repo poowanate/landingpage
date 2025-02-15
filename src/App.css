@@ -177,6 +177,8 @@
 }
 
 .page {
+  place-self: anchor-center !important;
+    background-position: center;
   margin-top: 10rem;
 }
 .pd2 {
