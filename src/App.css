@@ -106,6 +106,9 @@
 .mt-2 {
   margin-top: 0.5rem;
 }
+.mt-2rem{
+  margin-top: 2rem;
+}
 
 .bodysvg {
   margin: 0;
@@ -124,7 +127,9 @@
   font-size: 1.5rem;
   color: #333;
 }
-
+.bold{
+  font-weight: bold;
+}
 /* สำหรับหน้าจอขนาดเล็ก */
 @media (max-width: 768px) {
   .container svg {

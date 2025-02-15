@@ -4,6 +4,7 @@ import Header from "./Layouts/Header";
 import Home from "./components/Home";
 import Story from "./components/Story";
 import Novelty from "./components/Novelty";
+import About from "./components/About";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Home />
         <Story />
         <Novelty />
+        <About/>
       </div>
     </>
   );

@@ -108,7 +108,7 @@ const Novelty = () => {
           </div>
         </div>
       </div>
-      <div className="middle py-10">
+      <div className="middle mt-2rem">
       <button className="buttonrounded ">
           <svg
             width="35"
