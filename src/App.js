@@ -6,6 +6,7 @@ import Story from "./components/Story";
 import Novelty from "./components/Novelty";
 import About from "./components/About";
 import Share from "./components/Share";
+import Footer from "./Layouts/Footer";
 
 function App() {
   return (
@@ -17,7 +18,11 @@ function App() {
         <Novelty />
         <About/>
         <Share/>
+        <div className="pd2 middlelabel">
+        © Noritake
+        </div>
       </div>
+      <Footer />
     </>
   );
 }

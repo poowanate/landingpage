@@ -234,3 +234,13 @@
   border-left:10px solid #000;
   border-top: 10px solid  transparent;
   }
+
+  .middlelabel{
+    place-items: center;
+    max-width: 1024px;
+    padding: 24px;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    gap: 32px;
+}
+  

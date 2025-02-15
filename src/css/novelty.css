@@ -73,6 +73,10 @@ h2 {
   }
 }
 
+@media (max-width: 450px) {
+   .pd2 { padding: 1px  !important;
+   }
+  }
 
 @media (max-width: 1051px) {
     .gridnovelty {
@@ -209,8 +213,8 @@ h2 {
     padding: 20px;
     margin-bottom: 40px;
     text-align: center;
-    padding-right: 9rem;
-    padding-left: 9rem;
+    /* padding-right: 9rem;
+    padding-left: 9rem; */
 }
 
 .buttonrounded{
