@@ -1,4 +1,4 @@
-.body{
+.body-ab{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,7 +7,8 @@
     margin: 0;
     font-family: Arial, sans-serif;
 }
-.container {
+.container-ab {
+    place-items: center;
     max-width: 1024px;
     padding: 24px;
     display: grid;
@@ -24,7 +25,7 @@
     text-align: left;
 }
 .title {
-    font-size: 32px;
+    /* font-size: 32px; */
     font-weight: 300;
     margin-bottom: 16px;
 }
@@ -41,11 +42,23 @@
 .name i {
     font-size: 20px;
 }
-.subtitle {
+.subtitle-ab {
     font-size: 18px;
     margin-bottom: 8px;
 }
-.description {
+.description-ab {
     font-size: 18px;
     line-height: 1.6;
 }
+
+
+@media (max-width: 768px) {
+    .container-ab {
+      grid-template-columns: none;
+      text-align-last: center;
+    }
+    .name{    place-self: anchor-center;}
+    h2 {
+      justify-self: center;
+    }
+  }

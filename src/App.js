@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Story from "./components/Story";
 import Novelty from "./components/Novelty";
 import About from "./components/About";
+import Share from "./components/Share";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Story />
         <Novelty />
         <About/>
+        <Share/>
       </div>
     </>
   );

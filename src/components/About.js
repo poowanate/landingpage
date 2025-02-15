@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="page">
      
-     <div class="container">
+     <div class="container-ab">
         <div class="left">
             <h1 class="title">ABOUT</h1>
             <div class="name">
@@ -17,12 +17,12 @@ const About = () => {
 </svg>
 </span>
             </div>
-            <p class="subtitle">插畫家/設計師/藝術家</p>
-            <p class="subtitle bold" style={{fontSize: '12px'}}>Artist / Illustrator / Designer</p>
+            <p class="subtitle-ab">插畫家/設計師/藝術家</p>
+            <p class="subtitle-ab bold" style={{fontSize: '12px'}}>Artist / Illustrator / Designer</p>
         </div>
         <div class="right">
         <h1 class="title" style={{    visibility: 'collapse'}}>-</h1>
-            <p class="description ">
+            <p class="description-ab ">
                 主要以黑白單色調繪畫為主。作品廣泛應用於國內外廣告，書籍以及雜誌，時尚，壁畫等。活動範圍廣泛，包括設計以及指導等各種活動。並積極創作以插畫為主的筆記本等產品。
             </p>
         </div>

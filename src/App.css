@@ -193,7 +193,7 @@
   background: radial-gradient(circle, #e7f532 50%, #e7f532 50%, #fd000000 50%);
   background-size: 2rem;
   margin: 0px;
-  font-size: 17px;
+  /* font-size: 17px; */
   padding: 6px;
 }
 
