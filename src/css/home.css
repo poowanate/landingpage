@@ -142,6 +142,25 @@ nav a:hover {
  }
 
 
+ @media (max-width: 1370px) {
+    .setsvgpeople{
+        height: 150px !important;
+        width: auto;
+    }
+    .aboutcontent{
+        font-size: 20px;}
+        /* height: 400px !important;
+       
+        padding: 20px !important;
+    }
+     /* .disabledesktop{
+          position: unset;
+         opacity: 100;
+     } */ 
+     
+ }
+ 
+
 .ml16{margin-left: 16px}
 
 

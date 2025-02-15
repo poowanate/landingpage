@@ -1,0 +1,43 @@
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.highlight {
+    background-color: #ffff00;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.gridnovelty {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+@media (min-width: 600px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 900px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.item {
+    text-align: center;
+}
+.item img {
+    width: 200px;
+    height: 200px;
+}
+.item p {
+    margin-top: 10px;
+}
+.item .date {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 0;
+}
